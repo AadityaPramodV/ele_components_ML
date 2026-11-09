@@ -5,7 +5,7 @@ src, dst = "data", "dataset"
 exts = (".jpg", ".jpeg", ".png")
 
 if os.path.exists(dst):
-    shutil.rmtree(dst)
+    shutil.rmtree(dst)          # start fresh each run
 
 classes = sorted(d for d in os.listdir(src)
                  if os.path.isdir(os.path.join(src, d)) and not d.startswith("."))
