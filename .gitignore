@@ -1,0 +1,7 @@
+venv/
+dataset/
+data/
+runs/
+yolo11n-cls.pt
+__pycache__/
+.DS_Store
